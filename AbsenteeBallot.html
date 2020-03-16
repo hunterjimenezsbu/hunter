@@ -75,9 +75,7 @@ input[type=text] {
 
 <script>
 function locate(){
-    if(myCountry = "New York"){
-        location.replace("https://hunterjimenezsbu.github.io/pdfstorage/Absentee_Ballot/New_York_absentee.pdf")
-    }
+  "https://hunterjimenezsbu.github.io/pdfstorage/Voter_Registration/" + document.getElementById("myInput").value.toString().replace(" ","_") + "_Absentee.pdf"
 }
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
